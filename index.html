@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+   <link rel="stylesheet" href="swiper-bundle.min.css">
+   <link rel="stylesheet" href="styles.css">
+   <link href="common.css" rel="stylesheet" />
+
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <title>Software Training</title>
+   <link rel="stylesheet" type="text/css" target="_blank" href="style.css" />
+   <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+   <link rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css" />
+   <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css" />
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Font Awesome -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+   <!-- Bootstrap Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+   </script>
+
+   <style>
+      body {
+         color: white;
+      }
+
+      .footer {
+         background-color: black;
+      }
+
+      .footer-content h2 {
+         color: #fff;
+      }
+
+      .footer-content h5,
+      .footer-content p,
+      .footer-links a {
+         color: #fff;
+      }
+
+      .footer-links a:hover {
+         text-decoration: underline;
+      }
+
+      .footer hr {
+         background-color: #fff;
+      }
+
+      .popup-close {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         position: absolute;
+         top: 2rem;
+         right: 2rem;
+         padding: 0.5rem;
+         background-color: black;
+         border-radius: 50%;
+         cursor: pointer;
+      }
+
+      .popup-close {
+         font-size: 1rem;
+         color: white;
+      }
+   </style>
+
+   <title>Responsive card slider</title>
+</head>
+
+<body>
+   <div class="popup">
+      <div class="contentBox">
+
+         <div class="popup-close">
+            <i class="fa-solid fa-xmark"></i>
+         </div>
+         <section class="container">
+
+            <div class="card__container swiper">
+               <h1 style="color: rgb(242, 237, 237);  animation: text 3s 1; text-align: center;">Trending Technologies
+               </h1>
+               <BR>
+               <BR>
+               <div class="card__content">
+                  <div class="swiper-wrapper">
+
+                     <article class="card__article swiper-slide ">
+                        <div class="card__image">
+                           <img src="AI.jpg" alt="image" class="card__img">
+                           <div class="card__shadow"></div>
+                        </div>
+
+                        <div class="card__data overlay">
+                           <h3 class="card__name">AI</h3>
+                           <p class="card__description">
+                              Artificial intelligence (AI) refers to computer systems capable of performing complex
+                              tasks that historically only a human could do, such as reasoning, making decisions, or
+                              solving problems. </p>
+
+                           <a href="python.html" class="card__button">View More</a>
+                        </div>
+                     </article>
+
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="mI.jpg" alt="image" class="card__img">
+                           <!-- <div class="card__shadow"></div> -->
+                        </div>
+
+                        <div class="card__data overlay">
+                           <h3 class="card__name">Machine Learning</h3>
+                           <p class="card__description">
+                              Machine learning (ML) is a branch of artificial intelligence (AI) and computer science
+                              that focuses on the using data and algorithms to enable AI to imitate the way that humans
+                              learn, gradually improving its accuracy. </p>
+
+                           <a href="#" class="card__button">View More</a>
+                        </div>
+                     </article>
+
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="datasceience.jpg" alt="image" class="card__img">
+                           <div class="card__shadow"></div>
+                        </div>
+
+                        <div class="card__data overlay">
+                           <h3 class="card__name">Data Science</h3>
+                           <p class="card__description">
+                              Data science is an interdisciplinary academic field that uses statistics, scientific
+                              computing, scientific methods, processes, algorithms and systems to extract or extrapolate
+                              knowledge and insights from potentially noisy, structured, or unstructured data. </p>
+
+                           <a href="#" class="card__button">View More</a>
+                        </div>
+                     </article>
+
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="dataanalytics.jpg" alt="image" class="card__img">
+                           <div class="card__shadow"></div>
+                        </div>
+
+                        <div class="card__data overlay">
+                           <h3 class="card__name">Data Analytics</h3>
+                           <p class="card__description">
+                              Data analytics converts raw data into actionable insights. It includes a range of tools,
+                              technologies, and processes used to find trends and solve problems by using data.
+                              <a href="#" class="card__button">View More</a>
+                        </div>
+                     </article>
+
+
+                  </div>
+               </div>
+              
+               <!-- Navigation buttons -->
+               <div class="swiper-button-next">
+                  <i class="ri-arrow-right-s-line"></i>
+               </div>
+
+               <div class="swiper-button-prev">
+                  <i class="ri-arrow-left-s-line"></i>
+               </div>
+
+               <!-- Pagination -->
+               <div class="swiper-pagination"></div>
+            </div>
+
+
+         </section>
+      </div>
+   </div>
+
+
+   <nav>
+      <div class="logo">
+         <h1><span>Numetry</span> Trainning</h1>
+      </div>
+      <ul class="navlinks">
+         <li>
+            <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+         </li>
+         <!-- <li>
+            <a href="#"><i class="fa-brands fa-servicestack"></i>Services</a>
+         </li> -->
+         <li>
+            <a href="courses.html"><i class="fa-brands fa-discourse"></i> Courses</a>
+         </li>
+         <li>
+            <a href="contact.html"><i class="fa-solid fa-address-book"></i> Contact Us</a>
+         </li>
+      </ul>
+
+      <ul class="social-links">
+         <li>
+            <a href="#" class="linkedin"><i class="fi fi-brands-linkedin"></i></a>
+         </li>
+         <li>
+            <a href="#" class="twitter"><i class="fi fi-brands-twitter"></i></a>
+         </li>
+         <li>
+            <a href="#" class="facebook"><i class="fi fi-brands-facebook"></i></a>
+         </li>
+         <li>
+            <a href="#" class="youtube"><i class="fi fi-brands-youtube"></i></a>
+         </li>
+      </ul>
+
+
+   </nav>
+
+
+   <div class="nav sidebar">
+      <div class="menu">
+         <p class="title">Main</p>
+         <ul>
+            <li>
+               <a href="#">
+                  <i class="icon ph-bold ph-house-simple"></i>
+                  <span class="text">Dashboard</span>
+               </a>
+            </li>
+
+
+            <!-- <li>
+               <a href="#">
+                  <i class="icon ph-bold ph-chart-bar"></i>
+                  <span class="text">Carrier</span>
+                  <i class="arrow ph-bold ph-caret-down"></i>
+               </a>
+               <ul class="sub-menu">
+                  <li>
+                     <a href="#">
+                        <span class="text">Fullstack</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <span class="text">FrontEnd</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <span class="text">BackEnd</span>
+                     </a>
+                  </li>
+
+               </ul>
+            </li>
+         </ul> -->
+      </div>
+      <div class="menu">
+         <p class="title">Courses</p>
+         <ul>
+            <li>
+               <a href="#">
+                  <i class="icon ph-bold ph-gear"></i>
+                  <span class="text">Front End Courses</span>
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <i class="icon ph-bold ph-gear"></i>
+                  <span class="text">BackEnd Courses</span>
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <i class="icon ph-bold ph-gear"></i>
+                  <span class="text">Fullstack Courses</span>
+               </a>
+            </li>
+         </ul>
+      </div>
+      <div class="menu">
+         <p class="title">Account</p>
+         <ul>
+            <li>
+               <a href="#">
+                  <i class="icon ph-bold ph-info"></i>
+                  <span class="text">Help</span>
+               </a>
+            </li>
+            <li>
+               <a>
+                  <i class="icon ph-bold ph-sign-out"></i>
+
+                  <span class="text">Logout</span>
+               </a>
+            </li>
+         </ul>
+      </div>
+   </div>
+
+   <div class="banner">
+      <img src="contactus.jpg" style="filter: blur(10px);width: 1380px;height: 634px;">
+      <div class="banner-text">
+         <div style="padding:  12 13;">
+            <h1>Make your dream career a reality</h1>
+            <h1><span>Goverment Certified</span> <span> AI Powered </span></h1>
+
+
+            <h4>Learn courses to master one of the most popular programming languages of 21St century</h4>
+            <!-- <a class="show-now">Show Now</a> -->
+            <h5 style="color:greenyellow;">Languages:English,Marathi,Urdu </h5>
+
+            <h5><span><i class="fa-solid fa-ranking-star"></i> 4.2</span><span><i class="fa-solid fa-users"></i> 83,4565
+                  Students</span><span><i class="fa-regular fa-handshake"></i> Placement Assistance</span></h5>
+            <h5><span> 6 Weeks, 1 hr/day (flexible schedule)</span></h5>
+            <h5> <span>
+                  1+1 Offer: Get Internship & Job Preparation training FREE on purchase of Programming with
+                  training!</span></h5>
+         </div>
+      </div>
+   </div>
+   <script src="script.js"></script>
+   <section class="container">
+      <div class="card__container swiper">
+         <div class="card__content">
+            <div class="swiper-wrapper">
+               <article class="card__article swiper-slide ">
+                  <div class="card__image">
+                     <img src="images.jpg" alt="image" class="card__img">
+                     <div class="card__shadow"></div>
+                  </div>
+
+                  <div class="card__data ">
+                     <h3 class="card__name">Python For
+                        AI</h3>
+                     <p class="card__description">
+                        Python is a widely used programming language for artificial intelligence (AI) and machine
+                        learning (ML). It is a fast, secure, reliable
+                     </p>
+
+                     <a href="python.html" class="card__button">View More</a>
+                  </div>
+               </article>
+
+               <article class="card__article swiper-slide">
+                  <div class="card__image">
+                     <img src="java.jpg" alt="image" class="card__img">
+                     <!-- <div class="card__shadow"></div> -->
+                  </div>
+
+                  <div class="card__data ">
+                     <h3 class="card__name">Java Technology</h3>
+                     <p class="card__description">
+                        Java is a multi-platform, object-oriented, and network-centric language that can be used as a
+                        platform in itself. It is a fast, secure, reliable
+                     </p>
+
+                     <a href="java.html" class="card__button">View More</a>
+                  </div>
+               </article>
+
+               <article class="card__article swiper-slide">
+                  <div class="card__image">
+                     <img src="htmlnew.jpg" alt="image" class="card__img">
+                     <div class="card__shadow"></div>
+                  </div>
+
+                  <div class="card__data ">
+                     <h3 class="card__name">HTML</h3>
+                     <p class="card__description">
+                        HyperText Markup Language is the standard markup language for documents designed to be displayed
+                        in a web browser.
+                        It defines the content and structure of web content. </p>
+
+                     <a href="web.html" class="card__button">View More</a>
+                  </div>
+               </article>
+
+               <article class="card__article swiper-slide">
+                  <div class="card__image">
+                     <img src="javascript.png" alt="image" class="card__img">
+                     <div class="card__shadow"></div>
+                  </div>
+
+                  <div class="card__data">
+                     <h3 class="card__name">JavaScript</h3>
+                     <p class="card__description">
+                        JavaScript, often abbreviated as JS, is a programming language and core technology of the Web,
+                        alongside HTML and CSS </p>
+
+                     <a href="javascript.html" class="card__button">View More</a>
+                  </div>
+               </article>
+
+               <article class="card__article swiper-slide">
+                  <div class="card__image">
+                     <img src="mongo.png" alt="image" class="card__img">
+                     <!-- <div class="card__shadow"></div> -->
+                  </div>
+
+                  <div class="card__data">
+                     <h3 class="card__name">MongoDB</h3>
+                     <p class="card__description">
+                        MongoDB is a source-available, cross-platform, document-oriented database program. MongoDB is
+                        developed by MongoDB Inc. </p>
+
+                     <a href="#" class="card__button">View More</a>
+                  </div>
+               </article>
+            </div>
+         </div>
+
+         <!-- Navigation buttons -->
+         <div class="swiper-button-next">
+            <i class="ri-arrow-right-s-line"></i>
+         </div>
+
+         <div class="swiper-button-prev">
+            <i class="ri-arrow-left-s-line"></i>
+         </div>
+
+         <!-- Pagination -->
+         <div class="swiper-pagination"></div>
+      </div>
+
+
+   </section>
+
+   <div class="wrapper next-row">
+      <div class="stay-updated">
+         <h1>Stay Updated</h1>
+         <p class="update-text">
+            Did you know that an estimated 8.2M users rely on TECHNOLOGIES? It is set to become the most widely used
+            programming language sought-after by the biggest names in the tech universe.
+         </p>
+         <div class="updated-inputs">
+            <input type="text" class="email-input" placeholder="Email Goes Here" />
+            <button class="email-btn">Subscribe</button>
+         </div>
+      </div>
+   </div>
+
+
+   
+   <div class="form-popup" id="chat-container">
+     
+      
+      <div id="chat-header">
+         Chatbot
+      </div>
+      <div id="chat-window">
+         <div id="conversation">
+            <!-- Chat messages will be appended here -->
+         </div>
+         <div id="options">
+            <!-- Options will be displayed here -->
+         </div>
+      </div>
+      <div id="input-container">
+         <input type="text" id="user-input" placeholder="Type your message here...">
+         <button id="send-button">Send</button>
+         <button id="cancel-button" onclick="closechat()">Close</button>
+
+      </div>
+   
+   </div>
+ 
+   <script>
+     
+
+      function closechat() {
+         document.getElementById("chat-container").style.display = "none";
+      }
+
+    
+
+   
+   </script>
+
+   <!--=============== SWIPER JS ===============-->
+   <script src="swiper-bundle.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="main.js"></script>
+
+   <footer class="footer p-5">
+      <div>
+         <div class="row">
+            <div class="col-md-4">
+               <h2>Numetry Technologies</h2>
+            </div>
+            <div class="col-md-3">
+               <h5>About Us</h5>
+               <p>
+
+                  We are a leading IT Services Company in creativity and technology innovation in 2023.
+               </p>
+            </div>
+            <div class="col-md-3">
+               <h5>Contact Us</h5>
+               <ul class="list-unstyled">
+                  <li>Email: info@numetry.com</li>
+                  <li>Phone: +1233567890</li>
+                  <li>Address: 123 Street, pune, Maharashtra</li>
+               </ul>
+            </div>
+            <div class="col-md-3">
+               <iframe
+                  src="https://www.google.com/maps/embed?pb=!3m1!4b1!4m6!3m5!1s0x3bc2c1179bf5bebb:0xd6ed795ac7d53c39!8m2!3d18.5558422!4d73.9210869!16s%2Fg%2F11rgr80wtp?hl=en&entry=ttu"
+                  width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+               <h5>Follow Us</h5>
+               <ul class="list-inline footer-links">
+                  <li class="list-inline-item">
+                     <a href="#">
+                        <i class="fab fa-facebook"></i>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="#">
+                        <i class="fab fa-twitter"></i>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="#">
+                        <i class="fab fa-instagram"></i>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <hr>
+         <div class="row">
+            <div class="col-md-6">
+               <p>© 2024 Your Website. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-end">
+               <ul class="list-inline footer-links">
+                  <li class="list-inline-item">
+                     <a href="#" class="text-white">
+                        Privacy Policy
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="#" class="text-white">
+                        Terms of Service
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="#" class="text-white">
+                        Sitemap
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script>
+      const popup = document.querySelector('.popup');
+      const close = document.querySelector('.popup-close');
+      const chatpopup = document.querySelector('.form-popup');
+
+
+      window.onload = function () {
+         setTimeout(function () {
+            popup.style.display = "block"
+         }, 2000);
+         setTimeout(function () {
+chatpopup.style.display = "block"
+}, 20000)
+      }
+
+      close.addEventListener('click', () => {
+         popup.style.display = "none"
+      })
+   </script>
+</body>
+
+</html>
