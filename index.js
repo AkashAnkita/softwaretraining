@@ -1,6 +1,7 @@
 var firebaseConfig = {
   apiKey: "AIzaSyCDmMPZehIPZlCvsE5LDcs6lRZzXfWPv-I",
   authDomain: "softwaretraining-7acdc.firebaseapp.com",
+  databaseURL: "https://softwaretraining-7acdc-default-rtdb.firebaseio.com",
   projectId: "softwaretraining-7acdc",
   storageBucket: "softwaretraining-7acdc.appspot.com",
   messagingSenderId: "511729359067",
